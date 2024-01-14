@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl2.css">
+    <title>Usługi fryzjerskie</title>
+</head>
+<body>
+<div id="full">    
+    <div id="lewo">
+        <div class="Lbaner1">
+            <h2><a href="index.html">SALON FRYZJERSKI</a></h2>
+            <img src="obraz2.jpg" alt="Czesanie">
+        </div>
+        <div class="Lbaner2">
+            <h3>Dziś promocja na strzyżenie włosów</h3>
+            <form action="">
+                <input type="radio" name="radio" value="radio1">krótkie <br>
+                <input type="radio" name="radio" value="radio2">średnie <br>
+                <input type="radio" name="radio" value="radio3">półdługie <br>
+                <input type="radio" name="radio" value="radio4">długie <br>
+                <button type="button" onclick="skrypt()">Odkryj promocję</button>
+                <p id="wycena"></p>
+                <script>
+                    function skrypt(){
+                        if(document.querySelector('input[value="radio1"]:checked')){
+                            document.getElementById("wycena").innerHTML = "Cena strzyżenia: 25"}
+                        else if(document.querySelector('input[value = "radio2"]:checked')){
+                            ddocument.getElementById("wycena").innerHTML = "Cena strzyżenia: 30"}
+                        else if(document.querySelector('input[value = "radio3"]:checked')){
+                            document.getElementById("wycena").innerHTML = "Cena strzyżenia: 40"}
+                        else if(document.querySelector('input[value = "radio4"]:checked')){
+                            document.getElementById("wycena").innerHTML = "Cena strzyżenia: 50"}
+                    }
+                </script>
+            </form>
+        </div>
+    </div>
+    <div id="prawo">
+        <div class="Pbaner1">
+            <h2>MENU</h2>
+        </div>
+        <div class="Pbaner2">
+            <ol>
+                <li><a href="fryzura.html">Strzyżenie</a>
+                    <ul>
+                        <li>krótkie</li>
+                        <li>średnie</li>
+                        <li>półdługie</li>
+                        <li>długie</li>
+                    </ul>
+                </li>
+                <li>Czesanie</li>
+                <li>Koloryzacja</li>
+            </ol>
+        </div>
+        <div class="Pbaner3">
+            <img src="obraz1.jpg" alt="Fryzjer" id="fryzjer">
+        </div>
+    </div>
+</div>
+    <footer>
+        <p> Autor: dalej wstawiony numer PESEL zdającego</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+SELECT imie, nazwisko FROM `kadra` WHERE stanowisko='fryzjer'; 
+SELECT COUNT(*) FROM `uslugi` WHERE rodzaj='2'; 
+CREATE USER 'dominik'@'localhost' IDENTIFIED BY 'Fryz12'; 
+GRANT SELECT,CREATE,ALTER ON kadra.egzamin2 TO 'dominik'@'localhost'; 

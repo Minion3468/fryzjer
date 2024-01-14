@@ -1,0 +1,65 @@
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+#full{
+    display: flex;
+    width: 100%;
+}
+#prawo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+#lewo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Lbaner1{
+    height: 400px;
+    width: 100%;
+    background-color: snow;
+    text-align: center;
+}
+.Lbaner2{
+    height: 400px;
+    width: 100%;
+    background-color: snow;
+    font-size: 150%;
+}
+.Pbaner1{
+    height: 150px;
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+.Pbaner2{
+    height: 350px;
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+.Pbaner3{
+    height: 300px;
+    width: 100%;
+    background-color: snow;
+    text-align: center;
+}
+footer{
+    background-color: steelblue;
+    color: white;
+}
+h2{
+    font-size: 250%;
+}
+img{
+    padding: 4px;
+}
+img:hover{
+    padding: 3px;
+    border: solid 1px steelblue;
+}
+
